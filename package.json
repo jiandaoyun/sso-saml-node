@@ -1,0 +1,25 @@
+{
+    "name": "@jdy/demo-custom",
+    "version": "1.0.0",
+    "description": "Demo project for SSO(SAML) with Jiandaoyun.",
+    "main": "app.js",
+    "dependencies": {
+        "@authenio/samlify-xsd-schema-validator": "^1.0.2",
+        "ejs": "^2.6.2",
+        "express": "^4.17.1",
+        "samlify": "^2.6.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "SSO",
+        "Jiandaoyun"
+    ],
+    "author": "vista@fanruan.com",
+    "license": "MIT",
+    "engine": {
+        "node": ">=12.3.1"
+    }
+}
